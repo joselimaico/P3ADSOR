@@ -1,0 +1,32 @@
+<h1 class="display-4">Estudiantes</h1>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Edad</th>
+            <th>Dirección</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <% articles.forEach(function(article){ %>
+            <tr>
+                
+                <td><%= article.nombre %></td>
+                <td><%= article.apellido %></td>
+                <td><%= article.edad %></td>
+                <td><%= article.direccion %></td>
+                <td>
+                    <a href="/articles/edit/<%= article.id %>" class="btn btn-primary">Editar</a>
+                    <form class="d-inline" action = "/articles/delete/<%= article.id %>" method="post">
+                        <input type="submit" value="Eliminar" class="btn btn-danger">
+                    
+                    
+                    </form>
+                </td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>
