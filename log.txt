@@ -1,4 +1,18 @@
->>Start CREATE at 2018-01-24T19:33:30-05:00
-tiempo total 8476850139.492 microsegundos 
->>Start DELETE at 2018-01-24T19:34:28-05:00
-tiempo total 8534353799.895 microsegundos 
+>>Start READ at 2018-01-25T10:49:35-05:00
+tiempo total 1995406730.065 microsegundos 
+              total        used        free      shared  buff/cache   available
+Mem:        1016232      213884      605756        6696      196592      630560
+Swap:        839676           0      839676
+ 10:49:35 up 33 min,  1 user,  load average: 0.25, 0.10, 0.06
+>>Start READ at 2018-01-25T10:49:41-05:00
+tiempo total 2001754997.273 microsegundos 
+ 10:49:41 up 33 min,  1 user,  load average: 0.23, 0.10, 0.06
+              total        used        free      shared  buff/cache   available
+Mem:        1016232      213692      605900        6696      196640      630732
+Swap:        839676           0      839676
+>>Start READ at 2018-01-25T10:50:13-05:00
+tiempo total 2033797711.713 microsegundos 
+ 10:50:13 up 33 min,  1 user,  load average: 0.14, 0.09, 0.06
+              total        used        free      shared  buff/cache   available
+Mem:        1016232      217856      601612        6696      196764      626560
+Swap:        839676           0      839676
