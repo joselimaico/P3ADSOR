@@ -90,7 +90,8 @@ module.exports = {
     },
     actualizar:function(req,res){
         var params = req.allParams();
-        Articles.update({id:params.id},{nombre:params.nombre,apellido:params.apellido,edad:params.edad,direccion:params.direccion}).exec(function(err,article){
+        Articles.update({id:params.id},{nombre:params.nombre,apellido:params.apellido,edad:params.edad,direccion:params.direccion}).exec(
+            function(err,article){
             if(err){
                 res.send(500,{error:'Database Error'});
             }
