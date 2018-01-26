@@ -26,7 +26,7 @@ module.exports ={
                 fs.appendFileSync("log.txt",`${stdout}`,"UTF-8",{'flags':'a+'});
                // fs.appendFileSync("log.txt",">>end CREATE at " + moment().format()+"\n","UTF-8",{'flags':'a+'});
             });
-            exec('df-h', (error, stdout, stderr) => {
+            exec('df -h', (error, stdout, stderr) => {
                 if (error) {
                     console.error(`exec error: ${error}`);
                     return;
